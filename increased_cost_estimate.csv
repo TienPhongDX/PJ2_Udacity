@@ -1,0 +1,11 @@
+Group hierarchy,Region,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
+Estimate,US East (Ohio),NAT,0,32.85,394.2,USD,1 NAT
+,,ALB,0,623.95,7412.3,USD,2 ALB
+,,EC2,0,5681.32,68051.22,USD,"Operating system (Linux), Quantity (10), Pricing strategy (EC2 Instance Savings Plans 1 Year No Upfront), Storage amount (30 GB), Instance type (m6g.8xlarge)"
+,,RDS MySQL,0,13185.92,158231.04,USD,"Storage each RDS instance General Purpose SSD (gp2), storage 5TB, quantity 4, instance type db.m5.4xlarge, utilization onDemand only & 100 %Utilized/month, deployment multi-AZ, pricing strategy onDemand, backup storage 5TB"
+,,S3 Standard,6.5536,471.04,5659.03,USD,"S3 Standard 20TB per month, S3 standard average object size 16mb"
+,,,,,,,
+,,,,,,,
+,,,,,,,
+Acknowledgement,,,,,,,
+"* AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services.",,,,,,,
